@@ -1,8 +1,9 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
-import { loadPersona, getCorcelResponse } from '../backend/chatCompletions.js';
-import { generateImage } from '../backend/imageGeneration.js';
+import { loadPersona, getCorcelResponse } from './chatCompletions';
+import { generateImage } from './imageGeneration';
+
 
 const app = express();
 
